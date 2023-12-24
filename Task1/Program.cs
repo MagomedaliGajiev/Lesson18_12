@@ -8,7 +8,7 @@ namespace Task1
         {
             int count = 0;
 
-            for (int i = 0; i <= 1000
+            for (int i = 0; i <= 1000; i += 3, count++) ;
 
             Console.WriteLine($"Количество чисел от 0 до 1000, делящихся на 3 без остатка: {count}");
         }
